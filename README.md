@@ -2,7 +2,7 @@
 
 Представлен 3-мя страницами: Home, Projects и Contacts.
 
-Библиотеки: React, Material UI.
+Библиотеки: React, Material UI, Bootstrap 5.
 
 Используется API Github.
 
