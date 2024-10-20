@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Projects.css";
 import ProjectEntry from "../../components/ProjectEntry/ProjectEntry";
 import { Container, Pagination } from "@mui/material";
+import PESkeleton from "../../components/ProjectEntry/Skeleton/PESkeleton";
 
 const projects = [
   "https://api.github.com/repos/radeflex/freelrepos",
@@ -18,7 +19,7 @@ export default function Projects() {
 
   useEffect(() => {
     fetchRepo(currentPage);
-  }, []);
+  }, [currentPage]);
   return (
     <Container className="__container">
       <h1>Projects</h1>
@@ -28,11 +29,11 @@ export default function Projects() {
         author={author}
         repoLink={repo}
       />
+      {/* <PESkeleton /> */}
       <Pagination
         count={projects.length}
         onChange={(e, page) => {
           setPage(page - 1);
-          fetchRepo(currentPage);
         }}
         color="primary"
       />
