@@ -34,7 +34,7 @@
   width: 30%;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 600px) {
   .block-img {
     height: 20%;
   }
@@ -42,7 +42,7 @@
     width: 100%;
   }
   .title {
-    font-size: 65px;
+    font-size: 50px;
     font-weight: 600;
   }
   ._container{
