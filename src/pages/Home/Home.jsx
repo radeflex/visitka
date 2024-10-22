@@ -10,13 +10,13 @@ export default function Home() {
     <div>
       <Container className="_container">
         <section className="text-block">
-          <h1 className="title">Hello there!</h1>
+          <span className="title">Hello there!</span>
           <p className="text">I hope you will like this application!</p>
           <Button variant="outline-success" onClick={() => {navigate("/projects")}}>
             Go to projects
           </Button>
         </section>
-        <img src={thumbup} alt="gift" height="60%" width="30%"/>
+        <img src={thumbup} alt="gift" className="block-img"/>
       </Container>
     </div>
   );
