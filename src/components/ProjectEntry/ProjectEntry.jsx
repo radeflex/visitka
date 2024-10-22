@@ -12,7 +12,7 @@ export default function ProjectEntry({ langs, author, title, repoLink, img }) {
         width: "100%",
         borderRadius: "20px",
         boxShadow: "1px 2px 2px #c9c9c9",
-        margin: "1%",
+        margin: "2%",
       }}
     >
       <Box sx={{ p: 1 }}>

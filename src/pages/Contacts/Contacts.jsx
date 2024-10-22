@@ -25,7 +25,7 @@ export default function Contacts() {
           <Link href="mailto:maks.krav61@gmail.com">
             <img className={ContactsStyles.contactsItem} src={gmail} alt="gmail" />
           </Link>
-          <Link href="callto:+7(908)189-24-90">
+          <Link href="tel:+7(908)189-24-90">
             <img className={ContactsStyles.contactsItem} src={phone} alt="phone" />
           </Link>
         </div>
