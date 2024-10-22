@@ -12,11 +12,11 @@ export default function ProjectEntry({ langs, author, title, repoLink, img }) {
         width: "100%",
         borderRadius: "20px",
         boxShadow: "1px 2px 2px #c9c9c9",
-        margin: "1%"
+        margin: "1%",
       }}
     >
       <Box sx={{ p: 1 }}>
-        <img src={img} alt="project"  width="100%" />
+        <img src={img} alt="project" width="100%" />
         <Divider />
         <Box sx={{ p: 5 }}>
           <Stack direction="column" spacing={0.25} alignItems="flex-start">
@@ -26,17 +26,18 @@ export default function ProjectEntry({ langs, author, title, repoLink, img }) {
           </Stack>
           <Stack
             direction="row"
-            sx={{ justifyContent: "space-between", marginTop: "4%" }}
+            sx={{
+              justifyContent: "space-between",
+              marginTop: "4%",
+              flexWrap: "wrap",
+            }}
           >
-            <Stack direction="row" spacing={1}>
+            <Stack direction="row" className="langs" spacing={1}>
               {langs.map((el, id) => (
                 <Chip label={el} size="medium" key={id} />
               ))}
             </Stack>
-            <Button
-              variant="contained"
-              href={repoLink}
-            >
+            <Button variant="contained" href={repoLink}>
               Go to
             </Button>
           </Stack>
