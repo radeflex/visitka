@@ -1,0 +1,23 @@
+.nf-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+}
+
+.title {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.title-desc {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 30px;
+    color: rgb(50, 50, 50);
+    text-wrap: wrap;
+}
