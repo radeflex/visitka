@@ -1,0 +1,23 @@
+.contactsItem {
+    height: 10rem;
+    width: 10rem;
+    padding: 5%;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 0 1% 0;
+    height: 90vh;
+}
