@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       <Container className="_container">
         <section className="text-block">
-          <span className="title">Hello there!</span>
+          <span className="home-title">Hello there!</span>
           <p className="text">I hope you will like this application!</p>
           <Button variant="outline-success" onClick={() => {navigate("/projects")}}>
             Go to projects

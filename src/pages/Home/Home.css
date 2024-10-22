@@ -7,7 +7,7 @@
   height: 90%;
 }
 
-.title {
+.home-title {
   font-size: 100px;
   font-weight: 700;
 }
@@ -41,8 +41,8 @@
   .btn {
     width: 100%;
   }
-  .title {
-    font-size: 50px;
+  .home-title {
+    font-size: 65px;
     font-weight: 600;
   }
   ._container{
