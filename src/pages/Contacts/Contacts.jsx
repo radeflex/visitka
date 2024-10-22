@@ -11,7 +11,7 @@ export default function Contacts() {
   return (
     <div>
       <Container className={ContactsStyles.container}>
-        <h1 className={ContactsStyles.title}>Contacts</h1>
+        <h1 className={ContactsStyles.title}>Контакты</h1>
         <div className={ContactsStyles.contacts}>
           <Link href="https://vk.com/vvvagabond">
             <img className={ContactsStyles.contactsItem} src={vk} alt="vk" />

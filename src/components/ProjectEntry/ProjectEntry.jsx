@@ -21,14 +21,14 @@ export default function ProjectEntry({ langs, author, title, repoLink, img }) {
         <Box sx={{ p: 5 }}>
           <Stack direction="column" spacing={0.25} alignItems="flex-start">
             <Typography variant="h5">{title}</Typography>
-            <Typography variant="h6">Author: {author}</Typography>
-            <Typography variant="h6">Languages:</Typography>
+            <Typography variant="h6">Автор: {author}</Typography>
+            <Typography variant="h6">Используются:</Typography>
           </Stack>
           <Stack
             direction="row"
             sx={{
               justifyContent: "space-between",
-              marginTop: "4%",
+              marginTop: "1%",
               flexWrap: "wrap",
             }}
           >
@@ -38,7 +38,7 @@ export default function ProjectEntry({ langs, author, title, repoLink, img }) {
               ))}
             </Stack>
             <Button variant="contained" href={repoLink}>
-              Go to
+              Перейти
             </Button>
           </Stack>
         </Box>

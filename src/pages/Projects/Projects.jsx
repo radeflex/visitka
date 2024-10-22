@@ -28,7 +28,7 @@ export default function Projects() {
   }, [currentPage]);
   return (
     <Container className="__container">
-      <h1>Projects</h1>
+      <h1>Проекты</h1>
       <ProjectEntry
         langs={langs}
         title={title}

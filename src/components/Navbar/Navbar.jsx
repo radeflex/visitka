@@ -10,9 +10,9 @@ export default function Navbar_() {
         <Container>
           <Navbar.Brand onClick={() => {navigate("/contacts")}} style={{fontWeight: 700, fontSize: "20px", cursor: "pointer"}}>Radeflex</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link onClick={() => {navigate("/")}}>Home</Nav.Link>
-            <Nav.Link onClick={() => {navigate("/projects")}}>Projects</Nav.Link>
-            <Nav.Link onClick={() => {navigate("/contacts")}}>Contacts</Nav.Link>
+            <Nav.Link onClick={() => {navigate("/")}}>Главная</Nav.Link>
+            <Nav.Link onClick={() => {navigate("/projects")}}>Проекты</Nav.Link>
+            <Nav.Link onClick={() => {navigate("/contacts")}}>Контакты</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
